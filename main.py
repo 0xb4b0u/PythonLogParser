@@ -1,6 +1,15 @@
-# PROJET INTRO PROGRA 2022-2023
-# ANALYSE DE FICHIERS LOG
-# OGER BAPTISTE | B1 GROUPE E2
+# ************************************************************************** #
+#                       Introduction à la programmation                      #
+#                               PROJET DECEMBRE                              #
+#                              _ ____ ____ _  _                              #
+#                              | |___ [__  |\ |                              #
+#                              | |___ ___] | \|                              #
+#                                                                            #
+#   By: Baptiste OGER <etu51216@henallux.be>                                 #
+#   Created: 2022/07/11                                                      #
+#   Last edit: 2022/07/28                                                    #
+#                                                                            #
+# ************************************************************************** #
 
 def lines_from_file(path: str) -> list:
     """
@@ -46,7 +55,7 @@ def get_complete_date(line: str) -> str:
     """
 
     split_line = line.split()
-    return f'{split_line[0]} {split_line[1]} {split_line[2]}'
+    return f"{split_line[0]} {split_line[1]} {split_line[2]}"
 
 
 def get_message(line: str) -> str:
@@ -59,7 +68,7 @@ def get_message(line: str) -> str:
     """
 
     split_line = line.split()
-    return ''.join(f' {word}' for word in split_line[5:])
+    return "".join(f" {word}" for word in split_line[5:])
 
 
 def get_program(line: str) -> str:
@@ -72,9 +81,9 @@ def get_program(line: str) -> str:
     """
 
     split_line = line.split()
-    program = split_line[4].split('[')[0]
+    program = split_line[4].split("[")[0]
 
-    return program.replace(':', "") if ':' in program else program
+    return program.replace(":", "") if ":" in program else program
 
 
 def get_process_id(line: str) -> int:
@@ -89,9 +98,9 @@ def get_process_id(line: str) -> int:
     split_line = line.split()
     program_and_id = split_line[4]
 
-    if '[' in program_and_id:
-        end_of_id = split_line[4].split('[')[1]
-        process_id = int(end_of_id.split(']')[0])
+    if "[" in program_and_id:
+        end_of_id = split_line[4].split("[")[1]
+        process_id = int(end_of_id.split("]")[0])
 
         return process_id
     return -1
@@ -130,37 +139,39 @@ def formated_date(date: str) -> str:
     split_date = date.split()
 
     match split_date[0]:
-        case 'Jan':
-            month = '01'
-        case 'Feb':
-            month = '02'
-        case 'Mar':
-            month = '03'
-        case 'Apr':
-            month = '04'
-        case 'May':
-            month = '05'
-        case 'Jun':
-            month = '06'
-        case 'Jul':
-            month = '07'
-        case 'Aug':
-            month = '08'
-        case 'Sep':
-            month = '09'
-        case 'Oct':
-            month = '10'
-        case 'Nov':
-            month = '11'
-        case 'Dec':
-            month = '12'
+        case "Jan":
+            month = "01"
+        case "Feb":
+            month = "02"
+        case "Mar":
+            month = "03"
+        case "Apr":
+            month = "04"
+        case "May":
+            month = "05"
+        case "Jun":
+            month = "06"
+        case "Jul":
+            month = "07"
+        case "Aug":
+            month = "08"
+        case "Sep":
+            month = "09"
+        case "Oct":
+            month = "10"
+        case "Nov":
+            month = "11"
+        case "Dec":
+            month = "12"
         case _:
-            return 'ERROR'
+            return "ERROR"
 
-    return "".join(month + ':' + split_date[1] + ' ' + split_date[2])
+    return "".join(month + ":" + split_date[1] + " " + split_date[2])
 
 
-def logs_between(logs: list, date_min="00:00 00:00:00", date_max="99:99 00:00:00") -> list:
+def logs_between(
+    logs: list, date_min="00:00 00:00:00", date_max="99:99 00:00:00"
+) -> list:
     """
     PRECONDITIONS :
         - logs (list) : liste où chaque élément est une ligne de log bien formée
@@ -235,7 +246,11 @@ def list_process_for_program(logs: list, program: str) -> list:
     for log in logs:
         log_program = get_program(log)
         process_id = get_process_id(log)
-        if log_program == program and process_id != -1 and process_id not in process_id_list:
+        if (
+            log_program == program
+            and process_id != -1
+            and process_id not in process_id_list
+        ):
             process_id_list.append(process_id)
 
     return process_id_list
@@ -250,12 +265,14 @@ def suspects(logs: list, limit: int) -> list:
     POSTCONDITIONS :
         - retourne une liste des programmes (sans doublons) qui ont généré + que le nombre limite de log
             signalant des erreurs (error)
-        """
+    """
     suspect_logs = []
 
     for log in logs_with_tag(logs):
         program = get_program(log)
-        if program not in suspect_logs and len(logs_with_tag(logs_from_program(logs, program))) > limit:
+        if (
+            program not in suspect_logs
+            and len(logs_with_tag(logs_from_program(logs, program))) > limit
+        ):
             suspect_logs.append(program)
     return suspect_logs
-
