@@ -6,10 +6,11 @@
 #                              | |___ ___] | \|                              #
 #                                                                            #
 #   By: Baptiste OGER <etu51216@henallux.be>                                 #
-#   Created: 2022/07/11                                                      #
-#   Last edit: 2022/07/28                                                    #
+#   Created: 2022/11/11                                                      #
+#   Last edit: 2023/01/17                                                    #
 #                                                                            #
 # ************************************************************************** #
+
 
 def lines_from_file(path: str) -> list:
     """
@@ -267,7 +268,6 @@ def suspects(logs: list, limit: int) -> list:
             signalant des erreurs (error)
     """
     suspect_logs = []
-
     for log in logs_with_tag(logs):
         program = get_program(log)
         if (

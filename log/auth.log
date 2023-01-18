@@ -1,0 +1,395 @@
+Oct 21 04:18:05 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Oct 21 04:18:05 kali systemd-logind[433]: New session c1 of user lightdm.
+Oct 21 04:18:05 kali systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Oct 21 04:18:20 kali lightdm: pam_unix(lightdm:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 21 04:18:23 kali lightdm: pam_unix(lightdm:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 21 04:18:23 kali lightdm: gkr-pam: unable to locate daemon control file
+Oct 21 04:18:23 kali lightdm: gkr-pam: stashed password to try later in open session
+Oct 21 04:18:23 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Oct 21 04:18:23 kali lightdm: pam_unix(lightdm:session): session opened for user kali by (uid=0)
+Oct 21 04:18:23 kali systemd-logind[433]: Removed session c1.
+Oct 21 04:18:23 kali systemd-logind[433]: New session 2 of user kali.
+Oct 21 04:18:23 kali systemd: pam_unix(systemd-user:session): session opened for user kali by (uid=0)
+Oct 21 04:18:25 kali lightdm: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Oct 21 04:18:30 kali polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.36 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+Oct 21 04:19:59 kali sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 21 04:20:02 kali sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 21 04:20:03 kali sudo:     kali : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/cat syslog
+Oct 21 04:20:03 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 21 04:20:03 kali sudo: pam_unix(sudo:session): session closed for user root
+Oct 21 04:22:32 kali sudo:     kali : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/cat secure
+Oct 21 04:22:32 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 21 04:22:32 kali sudo: pam_unix(sudo:session): session closed for user root
+Oct 21 04:23:03 kali sudo:     kali : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/cat auth.log
+Oct 21 04:23:03 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 21 04:23:03 kali sudo: pam_unix(sudo:session): session closed for user root
+Oct 21 04:25:01 kali CRON[1307]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 21 04:25:01 kali CRON[1307]: pam_unix(cron:session): session closed for user root
+Oct 21 04:29:08 kali sudo:     kali : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/cat auth.log
+Oct 21 04:29:08 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 21 04:29:08 kali sudo: pam_unix(sudo:session): session closed for user root
+Oct 21 04:35:01 kali CRON[1480]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 21 04:35:01 kali CRON[1480]: pam_unix(cron:session): session closed for user root
+Oct 21 04:39:01 kali CRON[1545]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 21 04:39:01 kali CRON[1545]: pam_unix(cron:session): session closed for user root
+Oct 21 04:45:01 kali CRON[1709]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 21 04:45:01 kali CRON[1709]: pam_unix(cron:session): session closed for user root
+Oct 21 04:54:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Oct 21 04:54:00 kali systemd-logind[433]: New session c2 of user lightdm.
+Oct 21 04:54:00 kali systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Oct 21 04:55:01 kali CRON[1979]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 21 04:55:01 kali CRON[1979]: pam_unix(cron:session): session closed for user root
+Oct 21 05:05:01 kali CRON[2206]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 21 05:05:01 kali CRON[2206]: pam_unix(cron:session): session closed for user root
+Oct 21 05:09:01 kali CRON[2328]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 21 05:09:01 kali CRON[2328]: pam_unix(cron:session): session closed for user root
+Oct 21 05:15:01 kali CRON[2444]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 21 05:15:01 kali CRON[2444]: pam_unix(cron:session): session closed for user root
+Oct 21 05:17:01 kali CRON[2482]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 21 05:17:01 kali CRON[2482]: pam_unix(cron:session): session closed for user root
+Oct 21 05:25:01 kali CRON[2637]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 21 05:25:01 kali CRON[2637]: pam_unix(cron:session): session closed for user root
+Oct 21 05:35:01 kali CRON[2816]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 21 05:35:01 kali CRON[2816]: pam_unix(cron:session): session closed for user root
+Oct 21 05:39:01 kali CRON[2942]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 21 05:39:01 kali CRON[2942]: pam_unix(cron:session): session closed for user root
+Oct 21 05:45:01 kali CRON[3063]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 21 05:45:01 kali CRON[3063]: pam_unix(cron:session): session closed for user root
+Oct 21 05:55:01 kali CRON[3254]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 21 05:55:01 kali CRON[3254]: pam_unix(cron:session): session closed for user root
+Oct 21 06:05:01 kali CRON[3452]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 21 06:05:01 kali CRON[3452]: pam_unix(cron:session): session closed for user root
+Oct 21 06:09:01 kali CRON[3530]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 21 06:09:01 kali CRON[3530]: pam_unix(cron:session): session closed for user root
+Oct 21 06:13:26 kali lightdm: pam_unix(lightdm:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 21 06:13:30 kali lightdm: pam_unix(lightdm:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 21 06:13:30 kali lightdm: gkr-pam: unable to locate daemon control file
+Oct 21 06:13:30 kali lightdm: gkr-pam: stashed password to try later in open session
+Oct 21 06:13:30 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Oct 21 06:13:30 kali systemd-logind[433]: Removed session c2.
+Oct 21 06:13:41 kali systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Oct 21 06:13:51 kali sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 21 06:13:54 kali sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 21 06:13:54 kali sudo:     kali : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/sbin/shutdown -h now
+Oct 21 06:13:54 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 25 02:34:11 kali systemd-logind[434]: New seat seat0.
+Oct 25 02:34:11 kali systemd-logind[434]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct 25 02:34:11 kali systemd-logind[434]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Oct 25 02:34:11 kali systemd-logind[434]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct 25 02:34:18 kali sshd[590]: Server listening on 0.0.0.0 port 22.
+Oct 25 02:34:18 kali sshd[590]: Server listening on :: port 22.
+Oct 25 02:34:29 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Oct 25 02:34:29 kali systemd-logind[434]: New session c1 of user lightdm.
+Oct 25 02:34:29 kali systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Oct 25 02:34:43 kali lightdm: pam_unix(lightdm:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 25 02:34:46 kali lightdm: pam_unix(lightdm:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 25 02:34:46 kali lightdm: gkr-pam: unable to locate daemon control file
+Oct 25 02:34:46 kali lightdm: gkr-pam: stashed password to try later in open session
+Oct 25 02:34:46 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Oct 25 02:34:46 kali lightdm: pam_unix(lightdm:session): session opened for user kali by (uid=0)
+Oct 25 02:34:46 kali systemd-logind[434]: Removed session c1.
+Oct 25 02:34:46 kali systemd-logind[434]: New session 2 of user kali.
+Oct 25 02:34:46 kali systemd: pam_unix(systemd-user:session): session opened for user kali by (uid=0)
+Oct 25 02:34:47 kali lightdm: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Oct 25 02:34:51 kali polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.33 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+Oct 25 02:34:57 kali systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Oct 25 02:35:01 kali CRON[1176]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 02:35:01 kali CRON[1176]: pam_unix(cron:session): session closed for user root
+Oct 25 02:39:01 kali CRON[1257]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 02:39:01 kali CRON[1257]: pam_unix(cron:session): session closed for user root
+Oct 25 02:45:01 kali CRON[1311]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 02:45:01 kali CRON[1311]: pam_unix(cron:session): session closed for user root
+Oct 25 02:48:18 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Oct 25 02:48:18 kali systemd-logind[434]: New session c2 of user lightdm.
+Oct 25 02:48:18 kali systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Oct 25 02:48:18 kali lightdm: pam_unix(lightdm:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 25 02:48:18 kali lightdm: pam_unix(lightdm:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 25 02:55:01 kali CRON[1412]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 02:55:01 kali CRON[1412]: pam_unix(cron:session): session closed for user root
+Oct 25 03:05:01 kali CRON[1420]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 03:05:02 kali CRON[1420]: pam_unix(cron:session): session closed for user root
+Oct 25 03:09:02 kali CRON[1430]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 03:09:02 kali CRON[1430]: pam_unix(cron:session): session closed for user root
+Oct 25 03:10:01 kali CRON[1481]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 03:10:01 kali CRON[1481]: pam_unix(cron:session): session closed for user root
+Oct 25 03:15:01 kali CRON[1487]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 03:15:01 kali CRON[1487]: pam_unix(cron:session): session closed for user root
+Oct 25 03:16:19 kali lightdm: pam_unix(lightdm:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 25 03:16:19 kali lightdm: gkr-pam: unable to locate daemon control file
+Oct 25 03:16:19 kali lightdm: gkr-pam: stashed password to try later in open session
+Oct 25 03:16:19 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Oct 25 03:16:19 kali systemd-logind[434]: Removed session c2.
+Oct 25 03:17:01 kali CRON[1502]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 03:17:01 kali CRON[1502]: pam_unix(cron:session): session closed for user root
+Oct 25 03:25:01 kali CRON[1581]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 03:25:01 kali CRON[1581]: pam_unix(cron:session): session closed for user root
+Oct 25 03:30:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Oct 25 03:30:00 kali systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Oct 25 03:30:00 kali systemd-logind[434]: New session c3 of user lightdm.
+Oct 25 03:30:00 kali lightdm: pam_unix(lightdm:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 25 03:30:00 kali lightdm: pam_unix(lightdm:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 25 03:35:01 kali CRON[1675]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 03:35:01 kali CRON[1675]: pam_unix(cron:session): session closed for user root
+Oct 25 03:39:01 kali CRON[1678]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 03:39:01 kali CRON[1678]: pam_unix(cron:session): session closed for user root
+Oct 25 03:45:01 kali CRON[1738]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 03:45:01 kali CRON[1738]: pam_unix(cron:session): session closed for user root
+Oct 25 03:55:01 kali CRON[1745]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 03:55:01 kali CRON[1745]: pam_unix(cron:session): session closed for user root
+Oct 25 04:05:01 kali CRON[1758]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 04:05:02 kali CRON[1758]: pam_unix(cron:session): session closed for user root
+Oct 25 04:09:01 kali CRON[1763]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 04:09:01 kali CRON[1763]: pam_unix(cron:session): session closed for user root
+Oct 25 04:14:28 kali lightdm: pam_unix(lightdm:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 25 04:14:28 kali lightdm: gkr-pam: unable to locate daemon control file
+Oct 25 04:14:28 kali lightdm: gkr-pam: stashed password to try later in open session
+Oct 25 04:14:28 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Oct 25 04:14:28 kali systemd-logind[434]: Removed session c3.
+Oct 25 04:14:39 kali systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Oct 25 04:15:01 kali CRON[1836]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 04:15:01 kali CRON[1836]: pam_unix(cron:session): session closed for user root
+Oct 25 04:17:01 kali CRON[1844]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 04:17:01 kali CRON[1844]: pam_unix(cron:session): session closed for user root
+Oct 25 04:21:16 kali sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 25 04:21:20 kali sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 25 04:21:20 kali sudo:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/sbin/shutdown -h now
+Oct 25 04:21:20 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 25 04:21:20 kali sudo: pam_unix(sudo:session): session closed for user root
+Oct 25 09:11:11 kali systemd-logind[433]: New seat seat0.
+Oct 25 09:11:11 kali systemd-logind[433]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct 25 09:11:11 kali systemd-logind[433]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Oct 25 09:11:11 kali systemd-logind[433]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct 25 09:11:15 kali sshd[543]: Server listening on 0.0.0.0 port 22.
+Oct 25 09:11:15 kali sshd[543]: Server listening on :: port 22.
+Oct 25 09:11:20 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Oct 25 09:11:20 kali systemd-logind[433]: New session c1 of user lightdm.
+Oct 25 09:11:20 kali systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Oct 25 09:11:38 kali lightdm: pam_unix(lightdm:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 25 09:11:41 kali lightdm: pam_unix(lightdm:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 25 09:11:41 kali lightdm: gkr-pam: unable to locate daemon control file
+Oct 25 09:11:41 kali lightdm: gkr-pam: stashed password to try later in open session
+Oct 25 09:11:42 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Oct 25 09:11:42 kali lightdm: pam_unix(lightdm:session): session opened for user kali by (uid=0)
+Oct 25 09:11:42 kali systemd-logind[433]: Removed session c1.
+Oct 25 09:11:42 kali systemd-logind[433]: New session 2 of user kali.
+Oct 25 09:11:42 kali systemd: pam_unix(systemd-user:session): session opened for user kali by (uid=0)
+Oct 25 09:11:44 kali lightdm: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Oct 25 09:11:49 kali polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.34 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+Oct 25 09:15:02 kali CRON[1102]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 09:15:02 kali CRON[1102]: pam_unix(cron:session): session closed for user root
+Oct 25 10:09:46 kali CRON[1108]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 10:09:46 kali CRON[1108]: pam_unix(cron:session): session closed for user root
+Oct 26 04:55:01 kali CRON[1316]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 04:55:01 kali CRON[1316]: pam_unix(cron:session): session closed for user root
+Oct 26 04:56:52 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Oct 26 04:56:52 kali systemd-logind[433]: New session c2 of user lightdm.
+Oct 26 04:56:52 kali systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Oct 26 04:56:52 kali lightdm: pam_unix(lightdm:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 26 04:56:52 kali lightdm: pam_unix(lightdm:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 26 05:05:01 kali CRON[1411]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 05:05:01 kali CRON[1411]: pam_unix(cron:session): session closed for user root
+Oct 26 05:09:01 kali CRON[1420]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 05:09:01 kali CRON[1420]: pam_unix(cron:session): session closed for user root
+Oct 26 05:15:01 kali CRON[1475]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 05:15:01 kali CRON[1475]: pam_unix(cron:session): session closed for user root
+Oct 26 05:17:01 kali CRON[1479]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 05:17:02 kali CRON[1479]: pam_unix(cron:session): session closed for user root
+Oct 26 05:25:01 kali CRON[1491]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 05:25:01 kali CRON[1491]: pam_unix(cron:session): session closed for user root
+Oct 26 05:35:01 kali CRON[1498]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 05:35:01 kali CRON[1498]: pam_unix(cron:session): session closed for user root
+Oct 26 05:39:01 kali CRON[1502]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 05:39:01 kali CRON[1502]: pam_unix(cron:session): session closed for user root
+Oct 26 05:45:01 kali CRON[1562]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 05:45:01 kali CRON[1562]: pam_unix(cron:session): session closed for user root
+Oct 26 05:55:01 kali CRON[1568]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 05:55:01 kali CRON[1568]: pam_unix(cron:session): session closed for user root
+Oct 26 06:05:01 kali CRON[1582]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 06:05:01 kali CRON[1582]: pam_unix(cron:session): session closed for user root
+Oct 26 06:09:01 kali CRON[1586]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 06:09:01 kali CRON[1586]: pam_unix(cron:session): session closed for user root
+Oct 26 06:15:01 kali CRON[1645]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 06:15:01 kali CRON[1645]: pam_unix(cron:session): session closed for user root
+Oct 26 06:17:01 kali CRON[1648]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 06:17:01 kali CRON[1648]: pam_unix(cron:session): session closed for user root
+Oct 26 06:25:01 kali CRON[1655]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 06:25:01 kali CRON[1656]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 06:25:01 kali CRON[1656]: pam_unix(cron:session): session closed for user root
+Oct 26 06:25:22 kali CRON[1655]: pam_unix(cron:session): session closed for user root
+Oct 26 06:35:01 kali CRON[1750]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 06:35:01 kali CRON[1750]: pam_unix(cron:session): session closed for user root
+Oct 26 07:25:24 kali CRON[1809]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 07:25:24 kali CRON[1809]: pam_unix(cron:session): session closed for user root
+Oct 26 07:35:01 kali CRON[1816]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 07:35:02 kali CRON[1816]: pam_unix(cron:session): session closed for user root
+Oct 26 07:39:01 kali CRON[1821]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 07:39:01 kali CRON[1821]: pam_unix(cron:session): session closed for user root
+Oct 26 07:45:01 kali CRON[1874]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 07:45:02 kali CRON[1874]: pam_unix(cron:session): session closed for user root
+Oct 26 07:55:01 kali CRON[1881]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 07:55:02 kali CRON[1881]: pam_unix(cron:session): session closed for user root
+Oct 26 08:05:01 kali CRON[1914]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 08:05:01 kali CRON[1914]: pam_unix(cron:session): session closed for user root
+Oct 26 08:09:01 kali CRON[1921]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 08:09:01 kali CRON[1921]: pam_unix(cron:session): session closed for user root
+Oct 26 08:15:01 kali CRON[1974]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 08:15:01 kali CRON[1974]: pam_unix(cron:session): session closed for user root
+Oct 26 08:17:01 kali CRON[1978]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 08:17:01 kali CRON[1978]: pam_unix(cron:session): session closed for user root
+Oct 26 08:25:01 kali CRON[1986]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 08:25:01 kali CRON[1986]: pam_unix(cron:session): session closed for user root
+Oct 26 08:35:01 kali CRON[1994]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 08:35:01 kali CRON[1994]: pam_unix(cron:session): session closed for user root
+Oct 26 08:39:01 kali CRON[1999]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 08:39:01 kali CRON[1999]: pam_unix(cron:session): session closed for user root
+Oct 26 08:45:01 kali CRON[2054]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 08:45:01 kali CRON[2054]: pam_unix(cron:session): session closed for user root
+Oct 26 08:51:15 kali lightdm: pam_unix(lightdm:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 26 08:51:15 kali lightdm: gkr-pam: unable to locate daemon control file
+Oct 26 08:51:15 kali lightdm: gkr-pam: stashed password to try later in open session
+Oct 26 08:51:16 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Oct 26 08:51:16 kali systemd-logind[433]: Removed session c2.
+Oct 26 08:52:04 kali su: pam_unix(su-l:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 26 08:52:09 kali su: pam_unix(su-l:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 26 08:52:09 kali su: (to didier) kali on pts/1
+Oct 26 08:52:09 kali su: pam_unix(su-l:session): session opened for user didier by (uid=1000)
+Oct 26 08:55:01 kali CRON[2089]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 08:55:01 kali CRON[2089]: pam_unix(cron:session): session closed for user root
+Oct 26 09:05:01 kali CRON[2124]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 09:05:01 kali CRON[2124]: pam_unix(cron:session): session closed for user root
+Oct 26 09:09:01 kali CRON[2130]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 09:09:01 kali CRON[2130]: pam_unix(cron:session): session closed for user root
+Oct 26 09:10:17 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Oct 26 09:10:17 kali systemd-logind[433]: New session c3 of user lightdm.
+Oct 26 09:10:18 kali systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Oct 26 09:15:01 kali CRON[2266]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 09:15:01 kali CRON[2266]: pam_unix(cron:session): session closed for user root
+Oct 26 09:17:01 kali CRON[2269]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 09:17:01 kali CRON[2269]: pam_unix(cron:session): session closed for user root
+Oct 26 09:25:01 kali CRON[2278]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 09:25:01 kali CRON[2278]: pam_unix(cron:session): session closed for user root
+Oct 26 09:35:01 kali CRON[2285]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 09:35:01 kali CRON[2285]: pam_unix(cron:session): session closed for user root
+Oct 26 09:39:01 kali CRON[2292]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 09:39:01 kali CRON[2292]: pam_unix(cron:session): session closed for user root
+Oct 26 09:45:01 kali CRON[2346]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 09:45:01 kali CRON[2346]: pam_unix(cron:session): session closed for user root
+Oct 26 09:55:01 kali CRON[2354]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 09:55:01 kali CRON[2354]: pam_unix(cron:session): session closed for user root
+Oct 26 10:05:01 kali CRON[2363]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 10:05:01 kali CRON[2363]: pam_unix(cron:session): session closed for user root
+Oct 26 10:09:01 kali CRON[2369]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 10:09:01 kali CRON[2369]: pam_unix(cron:session): session closed for user root
+Oct 26 10:15:01 kali CRON[2422]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 10:15:01 kali CRON[2422]: pam_unix(cron:session): session closed for user root
+Oct 26 10:17:01 kali CRON[2427]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 10:17:01 kali CRON[2427]: pam_unix(cron:session): session closed for user root
+Oct 26 10:25:01 kali CRON[2434]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 10:25:01 kali CRON[2434]: pam_unix(cron:session): session closed for user root
+Oct 26 10:30:58 kali lightdm: pam_unix(lightdm:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 26 10:31:02 kali lightdm: pam_unix(lightdm:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 26 10:31:02 kali lightdm: gkr-pam: unable to locate daemon control file
+Oct 26 10:31:02 kali lightdm: gkr-pam: stashed password to try later in open session
+Oct 26 10:31:03 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Oct 26 10:31:03 kali systemd-logind[433]: Removed session c3.
+Oct 26 10:31:13 kali systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Oct 26 10:32:50 kali sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 26 10:32:57 kali sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 26 10:32:57 kali sudo:     kali : TTY=pts/4 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/sbin/shutdown -h now
+Oct 26 10:32:57 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 26 10:32:58 kali su: pam_unix(su-l:session): session closed for user didier
+Oct 28 09:38:40 kali systemd-logind[435]: New seat seat0.
+Oct 28 09:38:40 kali systemd-logind[435]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct 28 09:38:40 kali systemd-logind[435]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Oct 28 09:38:40 kali systemd-logind[435]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct 28 09:38:44 kali sshd[552]: Server listening on 0.0.0.0 port 22.
+Oct 28 09:38:44 kali sshd[552]: Server listening on :: port 22.
+Oct 28 09:38:50 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Oct 28 09:38:51 kali systemd-logind[435]: New session c1 of user lightdm.
+Oct 28 09:38:51 kali systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Oct 28 09:39:01 kali CRON[775]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 09:39:01 kali CRON[775]: pam_unix(cron:session): session closed for user root
+Oct 28 09:39:05 kali lightdm: pam_unix(lightdm:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 28 09:39:08 kali lightdm: pam_unix(lightdm:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 28 09:39:08 kali lightdm: gkr-pam: unable to locate daemon control file
+Oct 28 09:39:08 kali lightdm: gkr-pam: stashed password to try later in open session
+Oct 28 09:39:08 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Oct 28 09:39:09 kali lightdm: pam_unix(lightdm:session): session opened for user kali by (uid=0)
+Oct 28 09:39:09 kali systemd-logind[435]: Removed session c1.
+Oct 28 09:39:09 kali systemd-logind[435]: New session 3 of user kali.
+Oct 28 09:39:09 kali systemd: pam_unix(systemd-user:session): session opened for user kali by (uid=0)
+Oct 28 09:39:09 kali lightdm: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Oct 28 09:39:18 kali polkitd(authority=local): Registered Authentication Agent for unix-session:3 (system bus name :1.36 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+Oct 28 09:39:19 kali systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Oct 28 09:41:14 kali sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 28 09:41:18 kali sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 28 09:41:18 kali sudo:     kali : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/more syslog
+Oct 28 09:41:18 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 28 09:45:01 kali CRON[1318]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 09:45:01 kali CRON[1318]: pam_unix(cron:session): session closed for user root
+Oct 28 09:53:29 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Oct 28 09:53:29 kali systemd-logind[435]: New session c2 of user lightdm.
+Oct 28 09:53:29 kali systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Oct 28 09:53:31 kali lightdm: pam_unix(lightdm:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 28 09:53:32 kali lightdm: pam_unix(lightdm:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 28 09:55:01 kali CRON[1574]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 09:55:01 kali CRON[1574]: pam_unix(cron:session): session closed for user root
+Oct 28 09:55:18 kali lightdm: pam_unix(lightdm:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 28 09:55:18 kali lightdm: gkr-pam: unable to locate daemon control file
+Oct 28 09:55:18 kali lightdm: gkr-pam: stashed password to try later in open session
+Oct 28 09:55:18 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Oct 28 09:55:18 kali systemd-logind[435]: Removed session c2.
+Oct 28 09:55:20 kali sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 09:55:43 kali sudo:     kali : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/more messages
+Oct 28 09:55:43 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 28 09:57:28 kali sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 09:57:50 kali sudo:     kali : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/more auth.log
+Oct 28 09:57:50 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 28 09:58:35 kali sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 09:59:04 kali sudo:     kali : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/more secure
+Oct 28 09:59:04 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 28 09:59:04 kali sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 09:59:21 kali sudo:     kali : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/more faillog
+Oct 28 09:59:21 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 28 09:59:21 kali sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 10:01:45 kali sudo:     kali : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/more auth.log
+Oct 28 10:01:45 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 28 10:04:19 kali sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 10:04:54 kali sudo:     kali : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/more auth.log
+Oct 28 10:04:54 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 28 10:05:01 kali CRON[1752]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 10:05:01 kali CRON[1752]: pam_unix(cron:session): session closed for user root
+Oct 28 10:05:19 kali sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 10:09:01 kali CRON[1844]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 10:09:01 kali CRON[1844]: pam_unix(cron:session): session closed for user root
+Oct 28 10:15:01 kali CRON[1997]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 10:15:01 kali CRON[1997]: pam_unix(cron:session): session closed for user root
+Oct 28 10:15:28 kali lightdm: pam_unix(lightdm:session): session closed for user kali
+Oct 28 10:15:28 kali systemd-logind[435]: Session 3 logged out. Waiting for processes to exit.
+Oct 28 10:15:28 kali polkitd(authority=local): Unregistered Authentication Agent for unix-session:3 (system bus name :1.36, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8) (disconnected from bus)
+Oct 28 10:15:29 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Oct 28 10:15:29 kali systemd-logind[435]: New session c3 of user lightdm.
+Oct 28 10:15:29 kali systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Oct 28 10:15:35 kali lightdm: pam_unix(lightdm:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 28 10:15:38 kali lightdm: pam_unix(lightdm:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 28 10:15:38 kali lightdm: gkr-pam: unable to locate daemon control file
+Oct 28 10:15:38 kali lightdm: gkr-pam: stashed password to try later in open session
+Oct 28 10:15:38 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Oct 28 10:15:38 kali systemd-logind[435]: Removed session c3.
+Oct 28 10:15:38 kali lightdm: pam_unix(lightdm:session): session opened for user kali by (uid=0)
+Oct 28 10:15:38 kali systemd-logind[435]: New session 12 of user kali.
+Oct 28 10:15:38 kali lightdm: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Oct 28 10:15:40 kali polkitd(authority=local): Registered Authentication Agent for unix-session:12 (system bus name :1.195 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+Oct 28 10:16:32 kali sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 28 10:16:35 kali sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 28 10:16:35 kali sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=kali rhost=  user=kali
+Oct 28 10:16:37 kali sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 28 10:16:42 kali sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Oct 28 10:16:42 kali sudo:     kali : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/more auth.log
+Oct 28 10:16:42 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 28 10:17:01 kali CRON[2413]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 10:17:01 kali CRON[2413]: pam_unix(cron:session): session closed for user root
+Oct 28 10:17:04 kali sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 10:17:26 kali sudo:     kali : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/chmod 777 alternatives.log alternatives.log.1 apache2 apt auth.log auth.log.1 auth.log.2.gz auth.log.3.gz auth.log.4.gz boot.log btmp btmp.1 daemon.log daemon.log.1 daemon.log.2.gz daemon.log.3.gz daemon.log.4.gz debug debug.1 debug.2.gz debug.3.gz debug.4.gz dpkg.log dpkg.log.1 dpkg.log.2.gz dpkg.log.3.gz exim4 faillog fontconfig.log inetsim installer journal kern.log kern.log.1 kern.log.2.gz kern.log.3.gz kern.log.4.gz lastlog lightdm macchanger.log macchanger.log.1.gz macchanger.log.2.gz macchanger.log.3.gz macchanger.log.4.gz messages messages.1 messages.2.gz messages.3.gz messages.4.gz mysql nginx ntpstats openvpn postgresql private runit samba stunnel4 syslog syslog.1 syslog.2.gz syslog.3.gz syslog.4.gz syslog.5.gz syslog.6.gz syslog.7.gz sysstat user.log user.log.1 user.log.2.gz user.log.3.gz user.log.4.gz wtmp Xorg.0.log Xorg.0.log.old Xorg.1.log Xorg.1.log.old
+Oct 28 10:17:26 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 28 10:17:26 kali sudo: pam_unix(sudo:session): session closed for user root
