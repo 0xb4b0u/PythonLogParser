@@ -8,7 +8,7 @@ Oct 21 04:18:23 kali lightdm: gkr-pam: stashed password to try later in open ses
 Oct 21 04:18:23 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
 Oct 21 04:18:23 kali lightdm: pam_unix(lightdm:session): session opened for user kali by (uid=0)
 Oct 21 04:18:23 kali systemd-logind[433]: Removed session c1.
-Oct 21 04:18:23 kali systemd-logind[433]: New session 2 of user kali.
+Oct 21 04:18:23 kali systemd-logind[433]: session opened for user root .
 Oct 21 04:18:23 kali systemd: pam_unix(systemd-user:session): session opened for user kali by (uid=0)
 Oct 21 04:18:25 kali lightdm: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
 Oct 21 04:18:30 kali polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.36 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8)

@@ -1,15 +1,4 @@
-# ************************************************************************** #
-#                       Introduction à la programmation                      #
-#                               PROJET DECEMBRE                              #
-#                              _ ____ ____ _  _                              #
-#                              | |___ [__  |\ |                              #
-#                              | |___ ___] | \|                              #
-#                                                                            #
-#   By: Baptiste OGER <etu51216@henallux.be>                                 #
-#   Created: 2022/11/11                                                      #
-#   Last edit: 2023/01/17                                                    #
-#                                                                            #
-# ************************************************************************** #
+""" FICHIER MAIN DU PROJET """
 
 
 def lines_from_file(path: str) -> list:
@@ -23,11 +12,10 @@ def lines_from_file(path: str) -> list:
     """
 
     try:
-        with open(path) as f:
-            log = f.readlines()
-            return log
-    except Exception as e:
-        print(e)
+        with open(path) as file:
+            return file.readlines()
+    except Exception as error:
+        print(error)
         return []
 
 
@@ -114,7 +102,8 @@ def logs_by_day(logs: list, day: str) -> list:
         day (str) : date au format "Moi JJ"
 
     POSTCONDITIONS :
-        Retourne une liste de lignes du fichier log qui contiennent le jour de la semaine passé en paramètre
+        Retourne une liste de lignes du fichier log qui contiennent
+        le jour de la semaine passé en paramètre
     """
     days_log = []
 
@@ -125,17 +114,19 @@ def logs_by_day(logs: list, day: str) -> list:
     return days_log
 
 
-def formated_date(date: str) -> str:
+def formatted_date(date: str) -> str:
     """
     PRECONDITIONS :
         date (str) est la date au format "Mois JJ HH:MM:SS" où :
-            - Mois : est les 3 première lettres du mois en anglais(commencant par une majuscule)
+            - Mois : est les 3 première lettres du mois en anglais
+            (commencant par une majuscule)
             - JJ : est le numéro du jour (sur 2 chiffres)
             - HH : est l'heure (sur 2 chiffres)
             - MM : sont les minutes (sur 2 chiffres)
             - SS : sont les secondes (sur 2 chiffres)
     POSTCONDITIONS :
-        Retourne la date sous le format "xx:JJ HH:MM:SS" où xx est le nombre du mois (sur 2 chiffres)
+        Retourne la date sous le format "xx:JJ HH:MM:SS" où
+        xx est le nombre du mois (sur 2 chiffres)
     """
     split_date = date.split()
 
@@ -186,7 +177,7 @@ def logs_between(
     logs_between_dates = []
 
     for log in logs:
-        if date_min <= formated_date(get_complete_date(log)) <= date_max:
+        if date_min <= formatted_date(get_complete_date(log)) <= date_max:
             logs_between_dates.append(log)
 
     return logs_between_dates
@@ -199,7 +190,8 @@ def logs_with_tag(logs: list, tag="error") -> list:
         - tag (str) : une chaine de caractères à trouver dans le message.
             Par défaut : "error"
     POSTCONDITIONS :
-        - retourne une liste de logs qui concernent des uniquement des logs contenant le tag (min ou MAJ)
+        - retourne une liste de logs qui concernent des uniquement
+        des logs contenant le tag (min ou MAJ)
             dans le message.
     """
     tagged_logs = []
@@ -220,7 +212,8 @@ def logs_from_program(logs: list, program: str) -> list:
         - program (str) : le programme à trouver
 
     POSTCONDITIONS :
-        - retourne une liste de logs qui concernent des uniquement les programmes correspondant à "program"
+        - retourne une liste de logs qui concernent des uniquement
+        les programmes correspondant à "program"
     """
     program_logs = []
 
@@ -264,8 +257,8 @@ def suspects(logs: list, limit: int) -> list:
         - limit (int) : le nombre limite d'erreurs tolérées pour un programme.
 
     POSTCONDITIONS :
-        - retourne une liste des programmes (sans doublons) qui ont généré + que le nombre limite de log
-            signalant des erreurs (error)
+        - retourne une liste des programmes (sans doublons) qui ont
+        généré + que le nombre limite de log signalant des erreurs (error)
     """
     suspect_logs = []
     for log in logs_with_tag(logs):
